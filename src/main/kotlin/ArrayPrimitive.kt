@@ -17,4 +17,7 @@ fun main(args: Array<String>) {
     intArray.forEach { print(it.toString() + ' ') }
     print('\n')
 
+    //Kotlin memiliki kelas khusus untuk membuat array dengan tipe primitive tanpa adanya fitur
+    //boxing seperti ByteArray , ShortArray , IntArray dan banyak lagi.
+
 }
